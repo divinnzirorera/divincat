@@ -1,0 +1,22 @@
+<form action="/keep" method="post">
+    <input type="number" name="numbers">
+    <input type="submit" value="keep" onclick="add()">
+    <!-- <input type="submit" value="multiply"  onclick="multiply()"> -->
+    <script>
+    function multiply(numbers){
+    product = 1
+    for (var i =0;i<=numbers.length;i++){
+        product *=numbers[i] 
+        
+    }
+    return product
+}
+
+    </script>
+</form>
+<form action="/add" method="post">
+    <input type="submit" value="add">
+</form>
+<form action="/multiply" method="post">
+    <input type="submit" value="multiply">
+</form>
